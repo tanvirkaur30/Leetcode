@@ -16,9 +16,14 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/tanvirkaur30/Leetcode/tree/master/0001-two-sum) |
 | [0138-copy-list-with-random-pointer](https://github.com/tanvirkaur30/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 ## Recursion
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/tanvirkaur30/Leetcode/tree/master/0203-remove-linked-list-elements) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/tanvirkaur30/Leetcode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
