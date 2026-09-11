@@ -28,6 +28,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/tanvirkaur30/Leetcode/tree/master/0001-two-sum) |
+| [0053-maximum-subarray](https://github.com/tanvirkaur30/Leetcode/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/tanvirkaur30/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0128-longest-consecutive-sequence](https://github.com/tanvirkaur30/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 ## Union-Find
@@ -46,4 +47,12 @@
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/tanvirkaur30/Leetcode/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/tanvirkaur30/Leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
