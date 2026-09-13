@@ -26,9 +26,20 @@ public:
             }
             else{
             prev=temp;
-            temp=temp->next;
+            temp=temp->next;//these must be implemented only if we have deleted the value 
             }
         }
         return head;
     }
 };
+
+/*while(temp != NULL){
+    if(temp->val == val){
+        prev->next = temp->next;
+        delete temp;
+        temp = prev->next;
+        continue; //I deleted this node, so skip the remaining statements and start the next iteration.
+    }
+    prev = temp;
+    temp = temp->next;
+}*/
