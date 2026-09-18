@@ -65,6 +65,7 @@
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 ## Divide and Conquer
 |  |
@@ -81,9 +82,14 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
