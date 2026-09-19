@@ -9,6 +9,7 @@
 | [0061-rotate-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0061-rotate-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/tanvirkaur30/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/tanvirkaur30/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0203-remove-linked-list-elements](https://github.com/tanvirkaur30/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0206-reverse-linked-list) |
@@ -21,6 +22,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/tanvirkaur30/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0234-palindrome-linked-list) |
@@ -33,6 +35,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/tanvirkaur30/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/tanvirkaur30/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/tanvirkaur30/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 ## Recursion
 |  |
@@ -88,6 +91,7 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 ## Bracket Sequences
 |  |
 | ------- |
