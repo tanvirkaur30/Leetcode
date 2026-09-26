@@ -38,22 +38,21 @@ public:
        ListNode* nextofkthnode=NULL;
        ListNode* prevlast=NULL;
        while(temp!=NULL){
-        ListNode* kthnode=getkthNode(temp,k);
+        ListNode* kthnode = getkthNode(temp,k);
         if(kthnode==NULL){
-           if(prevlast) prevlast->next=temp;
+            if(prevlast) prevlast->next=temp;
             break;
         }
-       nextofkthnode=kthnode->next;
+        nextofkthnode=kthnode->next;
         kthnode->next=NULL;
         reverseLL(temp);
-        if(head==temp){
+        if(temp==head){
             head=kthnode;
         }else{
-           prevlast->next=kthnode;
+            prevlast->next=kthnode;
         }
         prevlast=temp;
         temp=nextofkthnode;
-
        }
        return head;
     }
