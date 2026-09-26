@@ -55,6 +55,7 @@
 | [0073-set-matrix-zeroes](https://github.com/tanvirkaur30/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/tanvirkaur30/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0128-longest-consecutive-sequence](https://github.com/tanvirkaur30/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
 ## Union-Find
 |  |
 | ------- |
@@ -63,6 +64,7 @@
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/tanvirkaur30/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
 ## Matrix
 |  |
 | ------- |
