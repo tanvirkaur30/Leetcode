@@ -34,7 +34,44 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-       ListNode* temp=head;//temp will be the beginning of the current group
+       ListNode* temp = head;
+       ListNode* nextofkthnode = NULL;
+       ListNode* prevlast = NULL;
+       while(temp!=NULL){
+        ListNode*  kthnode = getkthNode(temp,k);
+         if(kthnode==NULL){
+            if(prevlast) prevlast->next = temp;
+            break;
+         }
+         nextofkthnode = kthnode->next;
+         kthnode->next = NULL;
+         reverseLL(temp);
+         if(temp==head){
+            head= kthnode;
+         }else{
+            if(prevlast) prevlast->next = kthnode; 
+         }
+         prevlast = temp;
+         temp=nextofkthnode;
+       }
+       return head;
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*ListNode* temp=head;//temp will be the beginning of the current group
        ListNode* nextofkthnode=NULL;//stores the first node of the next group before we cut the current 
        ListNode* prevlast=NULL;//stores last node of previously reversed group
        while(temp!=NULL){
@@ -54,6 +91,4 @@ public:
         prevlast=temp; // temp was the original first node, after reversal it becomes the LAST node.
         temp=nextofkthnode;//move temp to the beginning of the next group
        }
-       return head;
-    }
-};
+       return head;*/
