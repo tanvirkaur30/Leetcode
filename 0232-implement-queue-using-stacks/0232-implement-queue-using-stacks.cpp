@@ -3,9 +3,7 @@ public:
     stack<int> s1, s2;
 
     MyQueue() {
-        
     }
-    
     void push(int x) {
         s1.push(x);
     }
