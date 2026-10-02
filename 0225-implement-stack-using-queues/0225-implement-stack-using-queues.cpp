@@ -5,26 +5,25 @@ public:
         
     }
     void push(int x) {
-        int s = q.size();
-        q.push(x);
-        for(int i=0;i<s;i++){
-            q.push(q.front());
-            q.pop();
-        }
+       q.push(x);
+       for(int i =0;i<q.size()-1;i++){
+        q.push(q.front());//keep the old elements after the newly inserted element
+        q.pop();
+       }
     }
     
     int pop() {
-       int el=q.front();
+       int el = q.front();
        q.pop();
        return el;
     }
     
     int top() {
-      return q.front();
+     return q.front();
     }
     
     bool empty() {
-       return q.empty();
+      return q.empty();
     }
 };
 
