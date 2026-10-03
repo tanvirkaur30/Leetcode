@@ -65,6 +65,7 @@
 | [0074-search-a-2d-matrix](https://github.com/tanvirkaur30/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0128-longest-consecutive-sequence](https://github.com/tanvirkaur30/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
 ## Union-Find
 |  |
@@ -108,6 +109,7 @@
 | [0232-implement-queue-using-stacks](https://github.com/tanvirkaur30/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0503-next-greater-element-ii) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -149,4 +151,5 @@
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
