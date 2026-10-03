@@ -46,6 +46,7 @@
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/tanvirkaur30/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
 ## Recursion
 |  |
 | ------- |
@@ -63,6 +64,7 @@
 | [0073-set-matrix-zeroes](https://github.com/tanvirkaur30/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/tanvirkaur30/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0128-longest-consecutive-sequence](https://github.com/tanvirkaur30/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
 ## Union-Find
 |  |
@@ -105,6 +107,7 @@
 | [0225-implement-stack-using-queues](https://github.com/tanvirkaur30/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/tanvirkaur30/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -142,4 +145,8 @@
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/tanvirkaur30/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/tanvirkaur30/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
