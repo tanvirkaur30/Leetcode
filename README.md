@@ -27,6 +27,7 @@
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/tanvirkaur30/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
@@ -60,6 +61,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/tanvirkaur30/Leetcode/tree/master/0001-two-sum) |
+| [0042-trapping-rain-water](https://github.com/tanvirkaur30/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/tanvirkaur30/Leetcode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/tanvirkaur30/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/tanvirkaur30/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -98,6 +100,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/tanvirkaur30/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/tanvirkaur30/Leetcode/tree/master/0053-maximum-subarray) |
 | [0907-sum-of-subarray-minimums](https://github.com/tanvirkaur30/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 ## Math
@@ -108,6 +111,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/tanvirkaur30/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/tanvirkaur30/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/tanvirkaur30/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/tanvirkaur30/Leetcode/tree/master/0232-implement-queue-using-stacks) |
@@ -157,6 +161,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/tanvirkaur30/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0402-remove-k-digits](https://github.com/tanvirkaur30/Leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0503-next-greater-element-ii) |
