@@ -75,6 +75,7 @@
 | [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/tanvirkaur30/Leetcode/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/tanvirkaur30/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/tanvirkaur30/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Union-Find
 |  |
 | ------- |
@@ -130,6 +131,7 @@
 | [0735-asteroid-collision](https://github.com/tanvirkaur30/Leetcode/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/tanvirkaur30/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/tanvirkaur30/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/tanvirkaur30/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -180,6 +182,7 @@
 | [0503-next-greater-element-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0901-online-stock-span](https://github.com/tanvirkaur30/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/tanvirkaur30/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/tanvirkaur30/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Simulation
 |  |
 | ------- |
