@@ -2,23 +2,18 @@ class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
         int n = nums.size();
-        vector<int> ans(n, -1);
-        stack<int> st;
-        // Traverse the array twice
-        for(int i = 2 * n - 1; i >= 0; i--) {
-            int idx = i % n;
-            // Remove elements that cannot be the answer
-            while(!st.empty() && st.top() <= nums[idx]) {
+        stack<int>st;
+        vector<int>nge;
+        for(int i =2*n-1;i>=0;i--){
+            while(!st.empty() && st.top()<=nums[i%n]){
                 st.pop();
             }
-            // Stack top is the next greater element
-            if(!st.empty()) {
-                ans[idx] = st.top();
+            if(i<n){
+                nge.push_back(st.empty()?-1:st.top());
             }
-            // Add current element for future elements
-            st.push(nums[idx]);
+            st.push(nums[i%n]);
         }
-
-        return ans;
+        reverse(nge.begin(),nge.end());
+        return nge;
     }
 };
