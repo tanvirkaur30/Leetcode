@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
        stack<int>st;
@@ -21,8 +21,29 @@ public:
        for(int i =0;i<n;i++){
         ans.push_back(st.top());
         st.pop();
-       }
-       reverse(ans.begin(),ans.end());
-       return ans ;
+       }*/
+       class Solution {
+public:
+    vector<int> asteroidCollision(vector<int>& asteroids) {
+        list<int> st;
+        for (int i = 0; i < asteroids.size(); i++) {
+            if (asteroids[i] > 0) {
+                st.push_back(asteroids[i]);
+            } 
+            else {
+                while (!st.empty() && st.back() > 0 &&
+                       st.back() < abs(asteroids[i])) {
+                    st.pop_back();
+                }
+                if (!st.empty() && st.back() == abs(asteroids[i])) {
+                    st.pop_back();
+                }
+                else if (st.empty() || st.back() < 0) {
+                    st.push_back(asteroids[i]);
+                }
+            }
+        }
+        vector<int> ans(st.begin(), st.end());
+        return ans;
     }
 };
