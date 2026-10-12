@@ -14,7 +14,9 @@ public:
         }
         int total=0;
         for(int i=0;i<n;i++){
+            if(height[i]<leftmax[i] && height[i]<rightmax[i]){
         total=total+min(leftmax[i],rightmax[i])-height[i];
+        }
         }
         return total;
     }
