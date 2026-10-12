@@ -31,19 +31,18 @@ public:
                 st.push_back(asteroids[i]);
             } 
             else {
-                while (!st.empty() && st.back() > 0 &&
-                       st.back() < abs(asteroids[i])) {
+                while (!st.empty() && st.back() > 0 && st.back() < abs(asteroids[i])) {
                     st.pop_back();
                 }
                 if (!st.empty() && st.back() == abs(asteroids[i])) {
-                    st.pop_back();
+                    st.pop_back(); //if list is not empty or asteroids are equal destroy them both// 
                 }
                 else if (st.empty() || st.back() < 0) {
-                    st.push_back(asteroids[i]);
+                    st.push_back(asteroids[i]);//if list means all right going asteroids are destroyed and we will store negative asteroids in the list
                 }
             }
         }
-        vector<int> ans(st.begin(), st.end());
+        vector<int> ans(st.begin(), st.end());//store list elements in vector 
         return ans;
     }
 };
