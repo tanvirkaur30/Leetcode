@@ -1,44 +1,42 @@
 class Solution {
 public:
-
-    int largestRectangleArea(vector<int>& heights) {
-        int n = heights.size();
-        stack<int> st;
-        int maxArea = 0;
-        for (int i = 0; i <= n; i++) {
-            int currHeight = (i == n) ? 0 : heights[i];
-            while (!st.empty() && heights[st.top()] > currHeight) {
-                int h = heights[st.top()];
-                st.pop();
-                int width;
-                if (st.empty())
-                    width = i;
-                else
-                    width = i - st.top() - 1;
-                maxArea = max(maxArea, h * width);
-            }
-            st.push(i);
+    int largesthist(vector<int> &heights){
+        stack<int> st;int maxarea=0;int n =heights.size();
+       for(int i =0;i<n;i++){
+        while(!st.empty() && heights[st.top()]>heights[i]){
+            int elementindex=st.top();
+            st.pop();
+            int nse = i;
+            int pse = st.empty()?-1:st.top();
+            maxarea=max(maxarea,heights[elementindex]*(nse-pse-1));
         }
-        return maxArea;
+        st.push(i);
+       }
+       while(!st.empty() ){
+            int elementindex=st.top();
+            st.pop();
+            int nse = n;
+            int pse = st.empty()?-1:st.top();
+            maxarea=max(maxarea,heights[elementindex]*(nse-pse-1));
+        }
+        return maxarea;
     }
+   
     int maximalRectangle(vector<vector<char>>& matrix) {
-        if (matrix.empty() || matrix[0].empty())
-            return 0;
-        int rows = matrix.size();
-        int cols = matrix[0].size();
-        vector<int> heights(cols, 0);
-        int ans = 0;
-        for (int i = 0; i < rows; i++) {
-            // Build histogram for current row
-            for (int j = 0; j < cols; j++) {
-                if (matrix[i][j] == '1')
-                    heights[j]++;
-                else
-                    heights[j] = 0;
+        if(matrix.size()==0) return 0;
+        int n=matrix.size();int m=matrix[0].size();vector<vector<int>>ps(n,vector<int>(m,0));
+        for(int j=0;j<m;j++){
+            int sum =0;
+            for(int i=0;i<n;i++){
+                sum=sum+(matrix[i][j]-'0');
+                if(matrix[i][j]=='0') sum =0;
+                ps[i][j]=sum;
             }
-            // Find largest rectangle in current histogram
-            ans = max(ans, largestRectangleArea(heights));
         }
-        return ans;
+        int maxarea=0;
+        for(int i=0;i<n;i++){
+            maxarea=max(maxarea,largesthist(ps[i]));
+        }
+        return maxarea;
     }
 };
