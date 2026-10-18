@@ -7,7 +7,7 @@ int index = -1;
     }
     
     int next(int price) {
-        index++;
+        index++;//each day is treated as 
         while(!st.empty() && st.top().first<=price){
             st.pop();
         }
