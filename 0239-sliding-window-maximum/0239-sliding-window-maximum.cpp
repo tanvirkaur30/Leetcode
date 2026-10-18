@@ -3,7 +3,6 @@ public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         deque<int> dq;          // indices store honge, values decreasing order mein
         vector<int> ans;
-
         for (int i = 0; i < nums.size(); i++) {
             // 1. Window se bahar nikla hua index front se hatao
             if (!dq.empty() && dq.front() <= i - k) {
