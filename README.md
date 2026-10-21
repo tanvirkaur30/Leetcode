@@ -16,6 +16,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/tanvirkaur30/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/tanvirkaur30/Leetcode/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/tanvirkaur30/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0203-remove-linked-list-elements](https://github.com/tanvirkaur30/Leetcode/tree/master/0203-remove-linked-list-elements) |
@@ -47,6 +48,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/tanvirkaur30/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/tanvirkaur30/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/tanvirkaur30/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0460-lfu-cache](https://github.com/tanvirkaur30/Leetcode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -163,6 +165,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/tanvirkaur30/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/tanvirkaur30/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/tanvirkaur30/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/tanvirkaur30/Leetcode/tree/master/0232-implement-queue-using-stacks) |
@@ -202,6 +205,7 @@
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/tanvirkaur30/Leetcode/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/tanvirkaur30/Leetcode/tree/master/0460-lfu-cache) |
 ## Data Stream
 |  |
