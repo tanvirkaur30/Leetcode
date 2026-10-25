@@ -100,6 +100,7 @@
 | [0020-valid-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0402-remove-k-digits](https://github.com/tanvirkaur30/Leetcode/tree/master/0402-remove-k-digits) |
+| [1021-remove-outermost-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -134,6 +135,7 @@
 | [0735-asteroid-collision](https://github.com/tanvirkaur30/Leetcode/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/tanvirkaur30/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/tanvirkaur30/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [1021-remove-outermost-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [2104-sum-of-subarray-ranges](https://github.com/tanvirkaur30/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Floyd's Cycle Finding Algorithm
 |  |
@@ -144,6 +146,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/0020-valid-parentheses) |
+| [1021-remove-outermost-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
