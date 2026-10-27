@@ -1,31 +1,65 @@
 class LRUCache {
-    int cap;
-    list<pair<int,int>> dll;                          // front = most recently used
-    unordered_map<int, list<pair<int,int>>::iterator> mp;
-
+    class Node {
+    public:
+        int key, value;
+        Node* prev;
+        Node* next;
+        Node(int k, int v) {
+            key = k;
+            value = v;
+            prev = nullptr;
+            next = nullptr;
+        }
+    };
 public:
-    LRUCache(int capacity) : cap(capacity) {}
-
-    int get(int key) {
-        auto it = mp.find(key);
-        if (it == mp.end()) return -1;
-        dll.splice(dll.begin(), dll, it->second);     // move node to front, O(1)
-        return it->second->second;
+    unordered_map<int, Node*> mp;
+    int capacity ;
+    Node* head ;
+    Node* tail;
+    LRUCache(int capacity) {
+        this->capacity = capacity ;
+       head = new Node(-1, -1);
+       tail = new Node(-1, -1);
+        head->next = tail;
+        tail->prev = head;
     }
-
+    void deletenode(Node* node){
+        Node* Prev = node->prev;
+        Prev->next = node->next;
+        node->next->prev = Prev;
+      
+    }
+    void insertafterhead(Node* node){
+        node->next = head->next;
+        head->next->prev = node;
+        head->next = node;
+        node->prev = head;
+    }
+    int get(int key) {
+        if(mp.find(key)==mp.end()) return -1;
+        Node* node = mp[key];
+        deletenode(node);
+        insertafterhead(node);
+        return node->value;
+    }
     void put(int key, int value) {
-        auto it = mp.find(key);
-        if (it != mp.end()) {
-            it->second->second = value;
-            dll.splice(dll.begin(), dll, it->second);
-            return;
+        if(mp.find(key)!=mp.end()){
+            Node* node = mp[key];
+            node->value = value;
+            deletenode(node);
+            insertafterhead(node);
         }
-        if ((int)dll.size() == cap) {
-            mp.erase(dll.back().first);               // evict LRU
-            dll.pop_back();
+        else{
+            if(capacity==mp.size()){
+                Node* node =tail->prev;
+                mp.erase(node->key);
+                deletenode(node);
+                delete node;
+            }
+            Node* node = new Node(key,value);
+            mp[key]=node;
+            insertafterhead(node);
         }
-        dll.emplace_front(key, value);
-        mp[key] = dll.begin();
     }
 };
 
