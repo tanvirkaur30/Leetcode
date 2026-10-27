@@ -23,7 +23,7 @@ public:
         head->next = tail;
         tail->prev = head;
     }
-    void deletenode(Node* node){
+    void deletenode(Node* node){//change the links only not actually delete it 
         Node* Prev = node->prev;
         Prev->next = node->next;
         node->next->prev = Prev;
