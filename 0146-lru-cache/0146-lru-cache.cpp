@@ -12,7 +12,9 @@ class LRUCache {
           next = NULL;
         }
     };
-    Node* head ;
+    
+public:
+Node* head ;
     Node* tail ;
     int cap ;
     unordered_map<int,Node*>mp;
@@ -27,7 +29,6 @@ class LRUCache {
         node->next->prev=node;
         node->prev=head;
     }
-public:
     LRUCache(int capacity) {
     cap = capacity;
     head = new Node(-1,-1);
