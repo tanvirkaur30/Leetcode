@@ -47,9 +47,9 @@ Node* head ;
     void put(int key, int value) {
         if(mp.find(key)!=mp.end()){
             Node* node = mp[key];
-            node->value =value;
             deletenode(node);
             insertafterhead(node);
+            node->value =value;
         }
         else{
             if(mp.size()==cap){
