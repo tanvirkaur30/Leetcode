@@ -1,91 +1,167 @@
+
 class LFUCache {
+    // Represents one key-value pair in the cache
     struct Node {
-        int key, value, freq;
-        Node *prev, *next;
-        Node(int k, int v) {
-            key = k;
-            value = v;
-            freq = 1;
-            prev = next = nullptr;
+        int key, value, cnt;
+        Node* next;
+        Node* prev;
+
+        Node(int _key, int _value) {
+            key = _key;
+            value = _value;
+            cnt = 1;
+            next = nullptr;
+            prev = nullptr;
         }
     };
-    struct DLL {
-        Node *head, *tail;
+
+    // Doubly linked list for nodes having the same frequency
+    struct List {
         int size;
-        DLL() {
+        Node* head;
+        Node* tail;
+
+        List() {
             head = new Node(0, 0);
             tail = new Node(0, 0);
+
             head->next = tail;
             tail->prev = head;
             size = 0;
         }
+
+        // Insert node at the front: most recently used
         void addFront(Node* node) {
-            node->next = head->next;
+            Node* temp = head->next;
+
+            node->next = temp;
             node->prev = head;
-            head->next->prev = node;
+
             head->next = node;
+            temp->prev = node;
+
             size++;
         }
-        void remove(Node* node) {
-            node->prev->next = node->next;
-            node->next->prev = node->prev;
+
+        // Unlink a node without deleting its memory
+        void removeNode(Node* node) {
+            Node* before = node->prev;
+            Node* after = node->next;
+
+            before->next = after;
+            after->prev = before;
+
             size--;
         }
+
+        // Least recently used node in this frequency list
         Node* removeLast() {
             if (size == 0) return nullptr;
+
             Node* node = tail->prev;
-            remove(node);
+            removeNode(node);
             return node;
         }
     };
+
     int capacity;
+    int curSize;
     int minFreq;
+
+    // Key -> corresponding node
     unordered_map<int, Node*> keyNode;
-    unordered_map<int, DLL*> freqList;
+
+    // Frequency -> corresponding doubly linked list
+    unordered_map<int, List*> freqListMap;
+
+    // Move an accessed node to the next frequency list
+    void updateFreqListMap(Node* node) {
+        int oldFreq = node->cnt;
+
+        // Remove node from its old frequency list
+        freqListMap[oldFreq]->removeNode(node);
+
+        // If the old minimum-frequency list is empty
+        if (oldFreq == minFreq &&
+            freqListMap[oldFreq]->size == 0) {
+            minFreq++;
+        }
+
+        // Increase the node's frequency
+        node->cnt++;
+
+        // Create a list for this frequency if needed
+        if (freqListMap.find(node->cnt) == freqListMap.end()) {
+            freqListMap[node->cnt] = new List();
+        }
+
+        // Insert at front of the new frequency list
+        freqListMap[node->cnt]->addFront(node);
+    }
+
 public:
     LFUCache(int capacity) {
         this->capacity = capacity;
+        curSize = 0;
         minFreq = 0;
     }
-    void updateFreq(Node* node) {
-        int freq = node->freq;
-        freqList[freq]->remove(node);
-        if (freq == minFreq && freqList[freq]->size == 0)
-            minFreq++;
-        node->freq++;
-        if (!freqList.count(node->freq))
-            freqList[node->freq] = new DLL();
-        freqList[node->freq]->addFront(node);
-    }
+
     int get(int key) {
-        if (!keyNode.count(key))
+        // Key does not exist
+        if (keyNode.find(key) == keyNode.end()) {
             return -1;
+        }
+
         Node* node = keyNode[key];
-        updateFreq(node);
-        return node->value;
+        int val = node->value;
+
+        // Accessing a key increases its frequency
+        updateFreqListMap(node);
+
+        return val;
     }
+
     void put(int key, int value) {
-        if (capacity == 0)
-            return;
-        if (keyNode.count(key)) {
+        // A zero-capacity cache cannot store anything
+        if (capacity == 0) return;
+
+        // Case 1: key already exists
+        if (keyNode.find(key) != keyNode.end()) {
             Node* node = keyNode[key];
+
             node->value = value;
-            updateFreq(node);
+            updateFreqListMap(node);
             return;
         }
-        if (keyNode.size() == capacity) {
-            Node* node = freqList[minFreq]->removeLast();
+
+        // Case 2: new key and cache is full
+        if (curSize == capacity) {
+            List* list = freqListMap[minFreq];
+
+            // Remove the least recently used node
+            Node* node = list->removeLast();
+
             keyNode.erase(node->key);
             delete node;
+
+            curSize--;
         }
+
+        // New keys always start at frequency 1
         Node* node = new Node(key, value);
-        minFreq = 1;
-        if (!freqList.count(1))
-            freqList[1] = new DLL();
-        freqList[1]->addFront(node);
+
+        if (freqListMap.find(1) == freqListMap.end()) {
+            freqListMap[1] = new List();
+        }
+
+        freqListMap[1]->addFront(node);
         keyNode[key] = node;
+
+        curSize++;
+        minFreq = 1;
     }
 };
+
 
 /**
  * Your LFUCache object will be instantiated and called as such:
