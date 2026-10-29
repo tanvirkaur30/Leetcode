@@ -33,6 +33,7 @@
 | [0042-trapping-rain-water](https://github.com/tanvirkaur30/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
+| [0125-valid-palindrome](https://github.com/tanvirkaur30/Leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/tanvirkaur30/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/tanvirkaur30/Leetcode/tree/master/0148-sort-list) |
@@ -102,6 +103,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/tanvirkaur30/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/0020-valid-parentheses) |
+| [0125-valid-palindrome](https://github.com/tanvirkaur30/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0344-reverse-string) |
 | [0402-remove-k-digits](https://github.com/tanvirkaur30/Leetcode/tree/master/0402-remove-k-digits) |
