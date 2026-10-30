@@ -80,6 +80,7 @@
 | [0085-maximal-rectangle](https://github.com/tanvirkaur30/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0128-longest-consecutive-sequence](https://github.com/tanvirkaur30/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0239-sliding-window-maximum](https://github.com/tanvirkaur30/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0485-max-consecutive-ones](https://github.com/tanvirkaur30/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/tanvirkaur30/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
