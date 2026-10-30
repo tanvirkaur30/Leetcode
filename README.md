@@ -113,6 +113,7 @@
 | [0242-valid-anagram](https://github.com/tanvirkaur30/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0344-reverse-string) |
 | [0402-remove-k-digits](https://github.com/tanvirkaur30/Leetcode/tree/master/0402-remove-k-digits) |
+| [0796-rotate-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 ## Divide and Conquer
 |  |
@@ -251,4 +252,8 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/tanvirkaur30/Leetcode/tree/master/0014-longest-common-prefix) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
