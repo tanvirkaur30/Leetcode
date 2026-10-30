@@ -86,6 +86,7 @@
 | [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/tanvirkaur30/Leetcode/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/tanvirkaur30/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/tanvirkaur30/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2104-sum-of-subarray-ranges](https://github.com/tanvirkaur30/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Union-Find
 |  |
@@ -237,6 +238,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/tanvirkaur30/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/tanvirkaur30/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -257,4 +259,8 @@
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0796-rotate-string) |
+## Prefix Sum
+|  |
+| ------- |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/tanvirkaur30/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
