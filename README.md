@@ -87,6 +87,7 @@
 | [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/tanvirkaur30/Leetcode/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/tanvirkaur30/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [1004-max-consecutive-ones-iii](https://github.com/tanvirkaur30/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/tanvirkaur30/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2104-sum-of-subarray-ranges](https://github.com/tanvirkaur30/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Union-Find
@@ -98,6 +99,7 @@
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/tanvirkaur30/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0704-binary-search](https://github.com/tanvirkaur30/Leetcode/tree/master/0704-binary-search) |
+| [1004-max-consecutive-ones-iii](https://github.com/tanvirkaur30/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 ## Matrix
 |  |
 | ------- |
@@ -241,6 +243,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/tanvirkaur30/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/tanvirkaur30/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [1004-max-consecutive-ones-iii](https://github.com/tanvirkaur30/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/tanvirkaur30/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Monotonic Queue
 |  |
@@ -265,5 +268,6 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/tanvirkaur30/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/tanvirkaur30/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
