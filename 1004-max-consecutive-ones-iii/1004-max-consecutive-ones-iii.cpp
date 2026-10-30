@@ -4,7 +4,7 @@ public:
      int l =0; int r =0; int maxlen = 0; int len = 0; int zeros= 0;
      while(r<nums.size()){
         if(nums[r]==0) zeros++;
-        while(zeros>k){
+        while(zeros>k){     //if(zeros>k) can be used to optimise it further 
             if(nums[l]==0) zeros--;
             l++;
         }
