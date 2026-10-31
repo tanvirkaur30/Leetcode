@@ -59,6 +59,7 @@
 | [0460-lfu-cache](https://github.com/tanvirkaur30/Leetcode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/tanvirkaur30/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0904-fruit-into-baskets](https://github.com/tanvirkaur30/Leetcode/tree/master/0904-fruit-into-baskets) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/tanvirkaur30/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Recursion
 |  |
 | ------- |
@@ -123,6 +124,7 @@
 | [0402-remove-k-digits](https://github.com/tanvirkaur30/Leetcode/tree/master/0402-remove-k-digits) |
 | [0796-rotate-string](https://github.com/tanvirkaur30/Leetcode/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/tanvirkaur30/Leetcode/tree/master/1021-remove-outermost-parentheses) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/tanvirkaur30/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -247,6 +249,7 @@
 | [0239-sliding-window-maximum](https://github.com/tanvirkaur30/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0904-fruit-into-baskets](https://github.com/tanvirkaur30/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/tanvirkaur30/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/tanvirkaur30/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/tanvirkaur30/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Monotonic Queue
 |  |
