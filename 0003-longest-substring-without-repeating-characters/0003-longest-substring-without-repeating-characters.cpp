@@ -10,9 +10,10 @@ public:
                     l=hash[s[r]]+1;
                 }
             }
+            hash[s[r]]=r;
            len = r-l+1;
             maxlen =max(len,maxlen);
-            hash[s[r]]=r;
+            
             r++;
         }
         return maxlen;
