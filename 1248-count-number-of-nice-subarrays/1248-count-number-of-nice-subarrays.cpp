@@ -14,7 +14,7 @@ private:
                 odd -= nums[left] & 1;
                 left++;
             }
-            res += right - left + 1;     // right pe end hone wale valid subarrays
+            res += right - left + 1;// right pe end hone wale valid subarrays
         }
         return res;
     }
