@@ -8,7 +8,7 @@ public:
         int left = 0, start = 0, minLen = INT_MAX;
         for (int right = 0; right < s.size(); right++) {
             if (need[s[right]]-- > 0) missing--;
-        while (missing == 0) {       // window valid hai, ab shrink kar
+        while (missing == 0) {       // window valid hai, ab shrink karo
                 if (right - left + 1 < minLen) {
                     minLen = right - left + 1;
                     start = left;
