@@ -6,7 +6,7 @@ public:
      while(r<s.size()){
         maxf[s[r]-'A']++;
         maxfreq=max(maxfreq,maxf[s[r]-'A']);
-        while((r-l+1)-maxfreq >k){
+        if((r-l+1)-maxfreq >k){
            
             maxf[s[l]-'A']--;
             l++;
