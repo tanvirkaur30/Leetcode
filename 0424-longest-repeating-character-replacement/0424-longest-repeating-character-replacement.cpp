@@ -7,12 +7,10 @@ public:
         maxf[s[r]-'A']++;
         maxfreq=max(maxfreq,maxf[s[r]-'A']);
         while((r-l+1)-maxfreq >k){
-            maxfreq=0;
+           
             maxf[s[l]-'A']--;
             l++;
-            for(int i =0;i<26;i++ ){
-                maxfreq=max(maxfreq,maxf[i]);
-            }
+            
         }
         if((r-l+1)-maxfreq <=k){
             maxlen = max(maxlen,r-l+1 );
